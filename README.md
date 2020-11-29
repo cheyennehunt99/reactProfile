@@ -23,7 +23,7 @@ React portfolio deployed on Heroku
 - [package.json](https://docs.npmjs.com/creating-a-package-json-file)
 - [npm](https://www.npmjs.com/)
 ## Summary
-My portfolio displaying my best work using react deployed on Heroku
+My portfolio displaying my best work using react 
 
 ## Usage
 - `$ npm install`
