@@ -30,9 +30,9 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                       myemail.com
+                       cheyennehunt78@gmail.com
                   </ListItemContent>
                 </ListItem>
 
@@ -40,6 +40,13 @@ class Contact extends Component {
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-github" aria-hidden="true"/>
                     cheyennehunt99
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                   <i className="fa fa-linkedin" aria-hidden="true"/>
+                   Cheyenne Hunt
                   </ListItemContent>
                 </ListItem>
 
