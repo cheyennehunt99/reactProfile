@@ -13,9 +13,8 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-            {/* Project 2 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Day Planner</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/responsive-portfolio/blob/master/img/DayPlanner.jpg?raw=true) center / cover'}} >Day Planner</CardTitle>
             <CardText>
             This simple calendar application allows users to save events for each hour of the day. It features HTML and CSS powered by jQuery.
             </CardText>
@@ -27,9 +26,8 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Note Taker</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/Note_Taker/raw/master/demo/server.gif) center / cover'}} >Note Taker</CardTitle>
             <CardText>
             This application can be used to write, save, and delete notes. It also uses an express backend to save and retrieve note data from a JSON file.
             </CardText>
@@ -41,9 +39,8 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Hamburger App</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/handle-EDB/raw/master/images/create.gif) center / cover'}} >Hamburger App</CardTitle>
             <CardText>
             Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
             </CardText>
@@ -62,13 +59,12 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Fitness Tracker</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/T_0202Fit/raw/main/samples/db.png) center / cover'}} >Fitness Tracker</CardTitle>
             <CardText>
             Reach your fitness goals more quickly and effectively by tracking your workout progress and status.
             </CardText>
             <CardActions border>
               <Button colored a href="https://github.com/cheyennehunt99/T_0202Fit" target="_blank">GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored a href="https://immense-refuge-82476.herokuapp.com/?id=5f94b8b44004b50024582667" target="_blank">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -76,28 +72,26 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Note Taker</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/ON-OFF/raw/main/sample/tracker.gif) center / cover'}} >Budget Tracker</CardTitle>
             <CardText>
-            CLI app deployed on Heroku that allows you to "ADD", "SAVE", and "DELETE" notes to help keep track of your day!
+            This application let's users keep track of their expenses, deposits, and budgets when offline and online. 
             </CardText>
             <CardActions border>
-              <Button colored a href="https://github.com/cheyennehunt99/Note_Taker" target="_blank">GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored a href="https://tunh-notetaker.herokuapp.com/" target="_blank">Live Demo</Button>
+              <Button colored a href="https://github.com/cheyennehunt99/ON-OFF" target="_blank">GitHub</Button>
+              <Button colored a href="https://arcane-garden-28730.herokuapp.com/" target="_blank">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Hamburger App</CardTitle>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/edirect/raw/main/sample/direct.gif) center / cover'}} >Employee Directory</CardTitle>
             <CardText>
-            Burger app created using multiple technologies to allow users to create and devour fresh burgers!
+            This is a employee directory built with React which lets employers access employees information easily. 
             </CardText>
             <CardActions border>
-              <Button colored a href="https://github.com/cheyennehunt99/handle-EDB" target="_blank">GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored a href="https://limitless-scrubland-83787.herokuapp.com/" target="_blank">Live Demo</Button>
+              <Button colored a href="https://github.com/cheyennehunt99/edirect" target="_blank">GitHub</Button>
+              <Button colored a href="https://cheyennehunt99.github.io/edirect/" target="_blank">Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
@@ -106,7 +100,46 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>Projects</h1></div>
+        <div className="projects-grid">
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/responsive-portfolio/blob/master/img/Project1.jpg?raw=true) center / cover'}} >Brewery Finder</CardTitle>
+            <CardText>
+            Get connected to your local breweries without leaving your home! Skip going to the store to find your favorite brew.
+            </CardText>
+            <CardActions border>
+              <Button colored a href="https://github.com/cheyennehunt99/projectone" target="_blank">GitHub</Button>
+              <Button colored a href="https://mavn2.github.io/projectone/" target="_blank">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/cheyennehunt99/zen-app/raw/master/image/main-page2.png) center / cover'}} >The Zen</CardTitle>
+            <CardText>
+            Get inspired using this application to keep track and get your daily tasks done! You can do it with some motivation.  
+            </CardText>
+            <CardActions border>
+              <Button colored a href="https://github.com/cheyennehunt99/zen-app" target="_blank">GitHub</Button>
+              <Button colored a href="https://mighty-gorge-04831.herokuapp.com/" target="_blank">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#030204', height: '176px', background: 'url(https://github.com/Toogii2019/safe_space/raw/master/image/safe-space-member.png) center / cover'}} >Safe Space</CardTitle>
+            <CardText>
+            Safe Space is an application to connect individuals by sharing their thoughts publicly or privately during COVID-19.
+            </CardText>
+            <CardActions border>
+              <Button colored a href="https://github.com/cheyennehunt99/safe_space" target="_blank">GitHub</Button>
+              <Button colored a href="https://safe-space-2020.herokuapp.com/" target="_blank">Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+        </div>
       )
     } 
 
@@ -118,8 +151,8 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Heroku</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Page 1</Tab>
+          <Tab>Page 2</Tab>
           <Tab>Projects</Tab>
         </Tabs>
 

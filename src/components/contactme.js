@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Cheyenne Hunt</h2>
             <img
-              src=""
+              src="https://cf.ltkcdn.net/socialnetworking/images/std/168796-281x281-girl-swear-icon.png"
               alt="avatar"
               style={{height: '250px'}}
                />
