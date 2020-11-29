@@ -29,7 +29,6 @@ My portfolio displaying my best work using react
 - `$ npm install`
 - `$ npm install --save-dev nodemon`
 - `$ npm start`
-- go to brower and run `localhost:3000`
 - `Ctrl+C` stop running locally 
 
 
